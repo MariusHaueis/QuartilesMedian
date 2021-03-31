@@ -56,8 +56,8 @@ public class GUI {
 				result = (ArrayList<Integer>) calculator.quartiles(list);
 				int g = result.size();
 				System.out.println("The left quartile: " + result.get(0));
-				System.out.println("The left quartile: " + result.get(1));
-				System.out.println("The left quartile: " + result.get(2));
+				System.out.println("The middle quartile: " + result.get(2));
+				System.out.println("The right quartile: " + result.get(1));
 		}
 		});
 		

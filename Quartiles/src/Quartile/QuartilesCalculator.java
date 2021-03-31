@@ -18,8 +18,9 @@ public class QuartilesCalculator {
 			helperList.add(arr.get(i-1));
 		}
 		result.add(helper(helperList));
+		int mn = arr.size();
 		if(arr.size()%2==0) {
-			result.add((int)((arr.get((arr.size()/2)-1) + arr.get(arr.size()/2))/2));
+			result.add((int)((arr.get((mn/2)-1) + arr.get(mn/2))/2));
 		}else {
 			result.add(arr.get((arr.size()/2)));
 		}
